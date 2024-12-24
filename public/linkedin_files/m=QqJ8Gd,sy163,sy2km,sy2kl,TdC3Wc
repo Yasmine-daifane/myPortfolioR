@@ -1,0 +1,23 @@
+this._s=this._s||{};(function(_){var window=this;
+try{
+_.q("QqJ8Gd");
+var ngg;
+_.ogg=function(a,b,c=!1,d,e){d=d||a.oa;if(!_.mgg(a,d))return!1;let f,g;try{g=c?_.UB(a.Ca,d):null;f=d.createElement("textarea");f.value=b;f.setAttribute("readonly","");_.rm(f,"height",0);d.body.appendChild(f);if(a.Da)f.select();else{const h=d.createRange();h.selectNodeContents(f);a.Aa.getSelection().removeAllRanges();a.Aa.getSelection().addRange(h);f.setSelectionRange(0,b.length)}d.addEventListener("copy",h=>{h.clipboardData.setData("text/plain",b);e&&h.clipboardData.setData(e,b);h.preventDefault()},{once:!0,
+capture:!0});return ngg(a,d)}finally{f&&_.dm(f),g&&_.TB(g)}};ngg=function(a,b){b=b||a.oa;try{return _.mgg(a,b)?b.execCommand("copy"):!1}catch(c){return!1}};_.mgg=function(a,b){b=b||a.oa;b=b.queryCommandSupported("copy");!b&&a.Ba&&(a.Ba=!0);return b};
+_.bP=class extends _.Ao{static Ra(){return{service:{focus:_.SB,window:_.Bo}}}constructor(a){super();this.jk=null;this.oa=a.service.window.Xf();this.Aa=a.service.window.get();this.Ca=a.service.focus;this.Da=!_.ma()&&!_.Nf.uMa();this.Ba=!1}copy(a,b=!1,c,d){c=c||this.oa;return a?_.ogg(this,a,b,c,d):ngg(this,c)}};_.Co(_.aP,_.bP);
+_.u();
+}catch(e){_._DumpException(e)}
+try{
+_.ldc=_.w("CHCSlb",[]);
+}catch(e){_._DumpException(e)}
+try{
+_.J2e=_.w("fmklff",[_.Gg,_.odc,_.ldc]);
+}catch(e){_._DumpException(e)}
+try{
+_.q("TdC3Wc");
+var rgg;rgg=function(a,b,c){_.z(function*(){a:switch(c){case 0:var d="yuChW";break a;case 1:d="yuChW YEw87d";break a;default:d=null}d&&(yield _.cP(a,"snackbar",_.J2e)).oa({label:b,eM:!0,Xb:d})})};
+_.sgg=class extends _.Ao{static Ra(){return{service:{clipboard:_.bP,window:_.ZO}}}constructor(a){super();this.Tz=a.service.clipboard;this.S0=a.service.window}copy(a,b=0){this.Tz.copy(a,!1,this.S0.Xf())?(a=_.ea(),_.ja(a,"SamsungBrowser")||(_.ja(a,"Version/0.")||_.ja(a,"Version/1.")||_.ja(a,"Version/2.")||_.ja(a,"Version/3."))&&(_.ja(a,"SAMSUNG")||_.ja(a,"SM-")||_.ja(a,"SGH-"))||rgg(this,"Texte copi\u00e9 dans le presse-papiers",b)):rgg(this,"\u00c9chec de la copie du texte",b)}};_.Co(_.pgg,_.sgg);
+_.u();
+}catch(e){_._DumpException(e)}
+})(this._s);
+// Google Inc.
